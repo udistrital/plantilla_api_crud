@@ -1,6 +1,5 @@
 ---
 to: <%= appname %>/sonar-project.properties
-sh: cd <%= appname %> && rm go.mod && go mod init && go mod tidy && bee generate docs
 force: true
 ---
 <%
