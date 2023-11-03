@@ -7,15 +7,37 @@ Plantilla para la creación de una **API CRUD en GO** con el generador de códig
 
 - [Lineamientos](https://github.com/udistrital/lineamientos_oas/tree/master)
 
-2.	Crear la BD Postgres en local.
-3.	Instalar Hygen en el directorio raiz “~/go/src/github.com/udistrital”.
+2. Instalar Node v12.
+
+```shell
+sudo apt update
+```
+```shell
+sudo apt-get update
+```
+```shell
+sudo apt install npm
+```
+```shell
+sudo npm install -g n
+```
+```shell
+sudo n 12
+```
+
+3.	Crear la BD Postgres en local.
+4. Instalar e inicializar Hygen en el directorio raiz “~/go/src/github.com/udistrital”.
 ```shell
 cd $GOPATH/src/github.com/udistrital/
 ```
 ```shell
-npm i -g hygen
+sudo npm i -g hygen
 ```
-4.	Instalar Python 2.7 y Python 3.0.
+```shell
+hygen init self
+```
+
+5.	Instalar Python 2.7 y Python 3.0.
 ```shell
 sudo apt-get update
 ```
